@@ -1,0 +1,25 @@
+{
+    "name": "get_id_bot",
+    "version": "1.0.0",
+    "description": "Get the user id (ident) on the Spaggiari website",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "node main.js debug"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eliapolloniato/get_id_bot.git"
+    },
+    "author": "Elia Polloniato",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eliapolloniato/get_id_bot/issues"
+    },
+    "homepage": "https://github.com/eliapolloniato/get_id_bot#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "node-telegram-bot-api": "^0.40.0",
+        "request-promise": "^4.2.5"
+    }
+}
